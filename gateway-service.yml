@@ -3,4 +3,3 @@ eureka.client.registry-fetch-interval-seconds: 5
 
 zuul.routes.greeting-service.path: /greeting-service/**
 zuul.routes.greeting-service.sensitive-headers: Set-Cookie,Authorization
-#zuul.routes.greeting-service.url: lb://greeting-service
