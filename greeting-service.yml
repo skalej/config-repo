@@ -1,2 +1,8 @@
 property1: 'App Specific property1'
 property2: 'App Specific property2333333555'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
